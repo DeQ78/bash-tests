@@ -87,11 +87,14 @@ gsettings set org.gnome.shell.extensions.ding show-home false
 
 
 gsettings set org.gnome.mutter center-new-windows true
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 1
+
+
 
 
 gsettings reset org.gnome.mutter overlay-key
 gsettings reset-recursively org.gnome.settings-daemon.
-
 
 gsettings set org.gnome.mutter overlay-key ''
 gsettings set org.gnome.shell.keybindings toggle-application-view "['Super_L']"
